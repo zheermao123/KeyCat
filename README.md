@@ -82,3 +82,22 @@ git fetch upstream          # 拉取原仓库更新
 git merge upstream/main     # 合并到本地
 git push origin main        # 推送到本仓库
 ```
+
+## 本仓库收录的其他开源项目源码
+
+本仓库还以 git subtree 方式收录了以下开源项目的源码快照（均保留其原始 LICENSE 与版权声明，权利归各自原作者所有）：
+
+| 子目录 | 项目 | 原仓库 | 协议 |
+|--------|------|--------|------|
+| `weasel/` | 小狼毫 Weasel（Rime 输入法 Windows 前端） | <https://github.com/rime/weasel> | GPL-3.0 |
+| `rime-ice/` | 雾凇拼音 Rime Ice（拼音配置与词库） | <https://github.com/iDvel/rime-ice> | GPL-3.0 |
+
+> 注：KeyCat 与这两个项目无任何关系，仅作个人学习与备份用途收录。这两个子目录的内容来自各自原仓库的快照，其更新不会随 KeyCat 自动进行。
+
+同步更新它们的源码：
+
+```sh
+git fetch upstream-weasel && git subtree pull --prefix=weasel upstream-weasel master --squash
+git fetch upstream-rime-ice && git subtree pull --prefix=rime-ice upstream-rime-ice main --squash
+git push origin main
+```
