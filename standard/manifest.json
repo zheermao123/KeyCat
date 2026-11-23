@@ -1,0 +1,37 @@
+{
+  "name": "OpenCode Multi-Agent Development Standard",
+  "version": "1.0.0",
+  "created": "2026-11-23",
+  "language": "zh-CN",
+  "files": [
+    ".opencode/agents/architect.md",
+    ".opencode/agents/developer.md",
+    ".opencode/agents/qa.md",
+    ".opencode/agents/reviewer.md",
+    "AGENTS.md",
+    "OPENCODE_BOOTSTRAP_PROMPT.md",
+    "README.md",
+    "adoption/PROJECT_ADOPTION_CHECKLIST.md",
+    "adoption/PROJECT_STRUCTURE.md",
+    "git/BRANCHING_STRATEGY.md",
+    "git/COMMIT_CONVENTION.md",
+    "governance/INDEPENDENT_ACCEPTANCE.md",
+    "governance/SINGLE_SOURCE_OF_TRUTH.md",
+    "governance/TASK_HANDOFF_PROTOCOL.md",
+    "opencode.jsonc",
+    "templates/ARCHITECTURE_TEMPLATE.md",
+    "templates/DECISIONS_TEMPLATE.md",
+    "templates/HANDOFF_TEMPLATE.md",
+    "templates/PRD_TEMPLATE.md",
+    "templates/PULL_REQUEST_TEMPLATE.md",
+    "templates/QA_REPORT_TEMPLATE.md",
+    "templates/REVIEW_TEMPLATE.md",
+    "templates/TASK_TEMPLATE.md"
+  ],
+  "notes": [
+    "Generic project template; adapt before applying to an existing repository.",
+    "Agent permission rules use the current permissions array format documented by OpenCode.",
+    "OpenCode configuration must be validated against the installed version.",
+    "No model/provider IDs are hardcoded."
+  ]
+}
