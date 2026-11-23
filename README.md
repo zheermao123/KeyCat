@@ -1,5 +1,10 @@
 # KeyCat
 
+> [!IMPORTANT]
+> **本仓库是基于开源项目 [ElloboDK/KeyCat](https://github.com/ElloboDK/KeyCat) 创建的副本（复制版），并非官方仓库。**
+> 原项目与全部版权归原作者 **[ElloboDK](https://github.com/ElloboDK)** 所有，本仓库仅作个人学习与备份用途。
+> 请支持原项目：**https://github.com/ElloboDK/KeyCat** ⭐
+
 一只趴在键盘上的桌面猫：你打字它伸爪按键，动鼠标它扭头看，摸头会闭眼，没人理会睡着，被烦到会用尾巴捶桌。支持 macOS 13+ 和 Windows 10+，除了从 GitHub 检查和下载更新，不联网。
 
 ![KeyCat](docs/screenshots/keycat.gif)
@@ -59,3 +64,21 @@ tools/  开发用渲染脚本（serve.py 起本地服务，readme_gif.py 生成 
 ## 说明
 
 这是一个从零实现的学习项目，形象和交互参考了一款付费桌面宠物应用，仅供个人使用和内部交流，不用于商业分发，也不包含对方的任何素材。three.js 为 MIT 许可（见 `web/THREE_LICENSE`），Tauri 为 MIT / Apache-2.0 双许可。
+
+## 仓库来源（Attribution）
+
+本仓库复制自开源项目：
+
+- **原仓库**：<https://github.com/ElloboDK/KeyCat>
+- **原作者**：[ElloboDK](https://github.com/ElloboDK)
+- **复制时间**：2026-11-23（当时最新版本 v1.0.4，提交 `31d0316`）
+
+所有代码、文档与设计的权利归原作者所有，本仓库的改动仅限本 README 中的仓库说明。如原作者提出要求，本仓库将配合删除或调整。
+
+同步上游更新的方法：
+
+```sh
+git fetch upstream          # 拉取原仓库更新
+git merge upstream/main     # 合并到本地
+git push origin main        # 推送到本仓库
+```
