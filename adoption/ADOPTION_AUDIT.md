@@ -58,7 +58,7 @@
 | TEST_STRATEGY | `docs/testing/TEST_STRATEGY.md` | DRAFT，P0-09 后回填 |
 | ACCEPTANCE_CRITERIA | `docs/testing/ACCEPTANCE_CRITERIA.md` | 从 PRD §10 + 门禁抽取 |
 | PR 模板 | `.github/PULL_REQUEST_TEMPLATE.md` | 复制自 templates/ |
-| 归档目录 | handoffs/ reviews/ qa-reports/ tasks/ | 已建立 |
+| 归档目录 | `docs/development/{tasks,handoffs,reviews}/`、`docs/testing/qa-reports/` | Git 不跟踪空目录，随首次归档文件按需创建（tasks/ 已随 T001 任务卡建立） |
 
 ## 5. 冲突与差异处理记录
 

@@ -27,6 +27,9 @@ permissions:
     resource: "git log *"
     effect: allow
   - action: shell
+    resource: "git show *"
+    effect: allow
+  - action: shell
     resource: "git branch --show-current"
     effect: allow
 ---
