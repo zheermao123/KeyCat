@@ -29,6 +29,9 @@ permissions:
   - action: shell
     resource: "git show *"
     effect: allow
+  - action: shell
+    resource: "git branch --show-current"
+    effect: allow
 ---
 
 # Role: Independent QA Engineer
